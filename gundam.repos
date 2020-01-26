@@ -1,0 +1,8 @@
+- git:
+    local-name: gundam_robot
+    uri: https://github.com/gundam-global-challenge/gundam_robot
+    branch: master
+- git:
+    local-name: ros2_control
+    uri: https://github.com/ros-controls/ros2_control.git
+    branch: master
