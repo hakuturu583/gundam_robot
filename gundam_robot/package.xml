@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package format="2">
+<package format="3">
   <name>gundam_robot</name>
   <version>0.0.2</version>
   <description>gundam_robot is a meta package for GUNDAM RX-78 robot controller and simulator</description>
@@ -12,14 +12,14 @@
 
   <author email="kei.okada@gmail.com">Kei Okada</author>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
   <exec_depend>gundam_rx78_control</exec_depend>
   <exec_depend>gundam_rx78_description</exec_depend>
   <exec_depend>gundam_rx78_gazebo</exec_depend>
 
   <export>
-    <metapackage/>
+    <build_type>ament_cmake</build_type>
   </export>
 
 </package>
