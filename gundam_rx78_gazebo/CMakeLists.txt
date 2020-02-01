@@ -10,3 +10,5 @@ install(DIRECTORY launch worlds test
   DESTINATION share/${PROJECT_NAME}/
   USE_SOURCE_PERMISSIONS
 )
+
+ament_package()

@@ -33,3 +33,4 @@ install(DIRECTORY config launch sample
 
 #install(FILES joint_trajectory_controller.xml
 #  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
+ament_package()

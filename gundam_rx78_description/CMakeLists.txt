@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.5.0)
 project(gundam_rx78_description)
 
 find_package(ament_cmake REQUIRED)
@@ -9,3 +9,5 @@ find_package(ament_cmake REQUIRED)
 install(DIRECTORY launch meshes scripts urdf
   DESTINATION share/${PROJECT_NAME}
 )
+
+ament_package()
