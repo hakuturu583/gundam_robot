@@ -18,6 +18,7 @@
   <exec_depend>controller_manager</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
   <exec_depend>ros2_controllers</exec_depend>
+  <exec_depend>launch_xml</exec_depend>
 
   <!-- for joint_trajectory_controller -->
   <depend>controller_interface</depend>
@@ -25,7 +26,7 @@
   <depend>pluginlib</depend>
 
   <export>
-    <controller_interface plugin="${prefix}/joint_trajectory_controller.xml"/>
+    <!--<controller_interface plugin="${prefix}/joint_trajectory_controller.xml"/>-->
     <build_type>ament_cmake</build_type>
   </export>
 
