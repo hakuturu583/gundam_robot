@@ -14,7 +14,6 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <exec_depend>gundam_rx78_control</exec_depend>
   <exec_depend>gundam_rx78_description</exec_depend>
   <exec_depend>gundam_rx78_gazebo</exec_depend>
 
